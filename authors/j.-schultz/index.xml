@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Schultz | Academic</title>
+    <link>https://apr600.github.io/authors/j.-schultz/</link>
+      <atom:link href="https://apr600.github.io/authors/j.-schultz/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Schultz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://apr600.github.io/img/icon-192.png</url>
+      <title>J. Schultz</title>
+      <link>https://apr600.github.io/authors/j.-schultz/</link>
+    </image>
+    
+    <item>
+      <title>Autonomous Visual Rendering using Physical Motion</title>
+      <link>https://apr600.github.io/publication/ergodic-drawing-wafr/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/publication/ergodic-drawing-wafr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

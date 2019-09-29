@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>https://apr600.github.io/authors/</link>
+      <atom:link href="https://apr600.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://apr600.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://apr600.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>A. Prabhakar and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/a.-prabhakar-and-t.d.-murphey/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/a.-prabhakar-and-t.d.-murphey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I. Abraham</title>
+      <link>https://apr600.github.io/authors/i.-abraham/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/i.-abraham/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Prabhakar</title>
+      <link>https://apr600.github.io/authors/a.-prabhakar/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/a.-prabhakar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/and-t.d.-murphey/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/and-t.d.-murphey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Mavrommati</title>
+      <link>https://apr600.github.io/authors/a.-mavrommati/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/a.-mavrommati/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Schultz</title>
+      <link>https://apr600.github.io/authors/j.-schultz/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/j.-schultz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. De La Torre</title>
+      <link>https://apr600.github.io/authors/g.-de-la-torre/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/g.-de-la-torre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K. Flaskamp</title>
+      <link>https://apr600.github.io/authors/k.-flaskamp/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/k.-flaskamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://apr600.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a Ph.D. Candidate in Robotics at Northwestern University in Prof.  Todd Murphey&amp;rsquo;s lab. My work focuses on robot learning for flexible task representations from variable, imperfect human demonstrations and high-dimensional sensory learning using distribution-based representations and information-theoretic measures. I am also the Team Lead on the DARPA OFFSET Sprint 3 Project, developing autonomous swarm algorithms for perception augmentation and exploring their efficacy in aiding an operator&amp;rsquo;s situational awareness.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

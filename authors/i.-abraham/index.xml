@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I. Abraham | Academic</title>
+    <link>https://apr600.github.io/authors/i.-abraham/</link>
+      <atom:link href="https://apr600.github.io/authors/i.-abraham/index.xml" rel="self" type="application/rss+xml" />
+    <description>I. Abraham</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://apr600.github.io/img/icon-192.png</url>
+      <title>I. Abraham</title>
+      <link>https://apr600.github.io/authors/i.-abraham/</link>
+    </image>
+    
+    <item>
+      <title>Active Area Coverage from Equilibrium</title>
+      <link>https://apr600.github.io/publication/kl-e3-wafr/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/publication/kl-e3-wafr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ergodic Exploration using Binary Sensing for Non-Parametric Shape Estimation</title>
+      <link>https://apr600.github.io/publication/ergodic-shape-estimation/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://apr600.github.io/publication/ergodic-shape-estimation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
