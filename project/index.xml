@@ -124,7 +124,7 @@
 
 &lt;p&gt;I lead the Northwestern team on the DARPA OFFSET Sprint 3 project, exploring this idea. I developed an experimental Virtual Reality test bed with the HTC Vive and Unity VR environments to conduct human subject studies investigating these questions on collaboration. We are working on developing visual and tactile interfaces for incorporating an operator&amp;rsquo;s preferences for swarm exploration. Using these interfaces, we can explore methods to incorporate the operator&amp;rsquo;s real-time needs into the swarm control with minimal additional cognitive load on the operator.&lt;/p&gt;
 
-&lt;!-- 
+
 
 
 
@@ -140,8 +140,8 @@
 
 
 &lt;video controls &gt;
-  &lt;source src=&#34;swarm_pipeline.webm&#34; type=&#34;video/webm&#34;&gt;
-&lt;/video&gt;--&gt; 
+  &lt;source src=&#34;swarm_pipeline_info.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 
 &lt;h2 id=&#34;autonomous-swarm-control-algorithms-for-perception-augmentation&#34;&gt;Autonomous Swarm Control Algorithms for Perception Augmentation&lt;/h2&gt;
 
