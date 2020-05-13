@@ -83,7 +83,7 @@ K-L Ergodic Exploration from Equilibrium (KL-E3) Distribution-Based Active Explo
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.04a87a1cb9027e3c50f566322527c56f.css">
+  <link rel="stylesheet" href="/css/academic.min.6291eab5d5e827203dd2ee42bd3189e2.css">
 
   
 
@@ -550,14 +550,9 @@ K-L Ergodic Exploration from Equilibrium (KL-E3) Distribution-Based Active Explo
   <div class="article-container">
 
     <div class="article-style">
-      
-
-<p>When learning a representation, the quality of the learned model (whether of the world, task or system itself) depends on the quality of data used to build the model. but how do we ensure that we explore and receive valuable information, particularly for high-dimensional search spaces where the information is sparse or hard to interpret (and therefore learn from)?</p>
-
+      <p>When learning a representation, the quality of the learned model (whether of the world, task or system itself) depends on the quality of data used to build the model. but how do we ensure that we explore and receive valuable information, particularly for high-dimensional search spaces where the information is sparse or hard to interpret (and therefore learn from)?</p>
 <h2 id="k-l-ergodic-exploration-from-equilibrium-kl-e3">K-L Ergodic Exploration from Equilibrium (KL-E3)</h2>
-
 <h3 id="distribution-based-active-exploration-and-the-kl-divergence-measure">Distribution-Based Active Exploration and the KL-Divergence Measure</h3>
-
 
 
 
@@ -579,9 +574,7 @@ K-L Ergodic Exploration from Equilibrium (KL-E3) Distribution-Based Active Explo
 
 </figure>
 
-
 <p>K-L divergence based control method focused on efficiently exploring high-dimensional search spaces safely for active, stable exploration. For efficient learning, we want to drive the exploration of the robot to prioritize obtaining more informative data. To do this, we defined an information distribution over the search space that represented the importance measure of the data (such as measures of linear independence from sparse Gaussian processes or measures representing model parameter uncertainty with respect to the search space). By defining the importance measure based on the state space, we generated a representation of the state space that prioritized states that generate highly informative data.</p>
-
 
 
 
@@ -603,11 +596,8 @@ K-L Ergodic Exploration from Equilibrium (KL-E3) Distribution-Based Active Explo
 
 </figure>
 
-
 <p>We then used information-based measures with hybrid control to generate controls that cover the search space and prioritizing high-information regions by matching the information distribution generated, while maintaining safety and stability constraints. The ergodic metric allows us to quantitatively define a measure that minimizes the distance between the information distribution and the time-averaged trajectory of the robot. Using it in the cost function allows us to generate controls that explore the full state-space while prioritizing high-information regions. The main limitation of the ergodic metric used in the active exploration algorithm is that the computational complexity of ergodicity exponentially increases with the dimensionality of the search space. To address this, we derive an active exploration algorithm using a sampling-based approximation of the ergodic metric using the Kullback-Leibler divergence metric. The sampling-based approximation allowed us to actively explore a much higher dimensional search space without sacrificing real-time control.</p>
-
-<p>For more information about this project, check out the <a href="https://murpheylab.github.io/projects/CyberPhysicalSystems" target="_blank">project page</a> or the <a href="https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf" target="_blank">paper</a> and its <a href="https://github.com/i-abr/kle3" target="_blank">Github repository</a>.</p>
-
+<p>For more information about this project, check out the <a href="https://murpheylab.github.io/projects/CyberPhysicalSystems">project page</a> or the <a href="https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf">paper</a> and its <a href="https://github.com/i-abr/kle3">Github repository</a>.</p>
 
 
 
@@ -629,19 +619,10 @@ K-L Ergodic Exploration from Equilibrium (KL-E3) Distribution-Based Active Explo
 
 </figure>
 
-
 <h2 id="active-exploration-for-learning-haptic-language">Active Exploration for Learning Haptic Language</h2>
-
-<figure>
-  <img src="biotac.png" alt="Biotac Tactile Sensor"  height="256" width = "184"
-  />
-  <figcaption>The Biotac tactile sensor exploring the workspace to learn, classify and map the textures in the space.</figcaption>
-</figure>
-
+<!-- raw HTML omitted -->
 <p>My work explores the idea of non-parametric learning for high-dimensional sensory spaces, specifically tactile exploration. Tactile exploration is a particularly interesting example of high-dimensional sensory exploration because, unlike vision, the exploratory motions used to obtain the data affect the data itself. That is, <em>how you move across the texture affects the sensory data received</em>. As such, learning and classifying texture data from exploratory motions can be a challenging problem.</p>
-
 <p>Most of the work in tactile exploration either focus on learning to translate the sensory signals to physically interpretable characteristics. Others simplify the tactile exploration for generating discriminatory motions by either mimicking human exploratory motions or by building a library of motions to discriminate particular characteristics. The question I am exploring is, <em>Can I learn textures and mappings of workspaces directly from the high-dimensional tactile sensory signals without trying to associate physical characteristics to the sensory signals?</em></p>
-
 <p>Using the Biotac tactile sensor from SynTouch, Inc., a 19-dimensional tactile sensor that mimics the sensory capabilities of the human fingertip, I explore the use of Mixture Density Networks to learn, model, and classify textures without a prior library of texture definitions or predefined exploratory motions. Furthermore, using the K-L divergence-based exploration algorithm in conjunction with learning techniques for mixture models,  I efficiently learn and map a texture space by prioritizing informative regions and motions for texture discrimination.</p>
 
     </div>
@@ -680,7 +661,7 @@ K-L Ergodic Exploration from Equilibrium (KL-E3) Distribution-Based Active Explo
     <div class="media-body">
       <h5 class="card-title"><a href="https://apr600.github.io/">Ahalya Prabhakar</a></h5>
       <h6 class="card-subtitle">Ph.D. Candidate in Robotics</h6>
-      <p class="card-text">My research interests include robot learning from high-dimensional sensory signals and human demonstrations and human-swarm collaboration using information-theoretic algorithms.</p>
+      <p class="card-text">My research interests include robot active learning from high-dimensional sensory signals and human demonstrations and human-swarm collaboration using information-theoretic algorithms.</p>
       <ul class="network-icon" aria-hidden="true">
         
           

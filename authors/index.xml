@@ -5,7 +5,7 @@
     <link>https://apr600.github.io/authors/</link>
       <atom:link href="https://apr600.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 12:11:23 -0500</lastBuildDate>
     <image>
       <url>https://apr600.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,26 +13,50 @@
     </image>
     
     <item>
-      <title>A. Prabhakar and T.D. Murphey</title>
-      <link>https://apr600.github.io/authors/a.-prabhakar-and-t.d.-murphey/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://apr600.github.io/authors/a.-prabhakar-and-t.d.-murphey/</guid>
+      <title>A. Prabhakar</title>
+      <link>https://apr600.github.io/authors/a.-prabhakar/</link>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-prabhakar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Taylor</title>
+      <link>https://apr600.github.io/authors/a.-taylor/</link>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-taylor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>I. Abraham</title>
       <link>https://apr600.github.io/authors/i.-abraham/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
       <guid>https://apr600.github.io/authors/i.-abraham/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A. Prabhakar</title>
-      <link>https://apr600.github.io/authors/a.-prabhakar/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://apr600.github.io/authors/a.-prabhakar/</guid>
+      <title>K. Popovic  and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/k.-popovic-and-t.d.-murphey/</link>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/k.-popovic-and-t.d.-murphey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Schlafly</title>
+      <link>https://apr600.github.io/authors/m.-schlafly/</link>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/m.-schlafly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Prabhakar and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/a.-prabhakar-and-t.d.-murphey/</link>
+      <pubDate>Wed, 13 May 2020 12:05:31 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-prabhakar-and-t.d.-murphey/</guid>
       <description></description>
     </item>
     
@@ -81,7 +105,7 @@
       <link>https://apr600.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://apr600.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Ph.D. Candidate in Robotics at Northwestern University in Prof.  Todd Murphey&amp;rsquo;s lab. My work focuses on robot learning for flexible task representations from variable, imperfect human demonstrations and high-dimensional sensory learning using distribution-based representations and information-theoretic measures. I am also the Team Lead on the DARPA OFFSET Sprint 3 Project, developing autonomous swarm algorithms for perception augmentation and exploring their efficacy in aiding an operator&amp;rsquo;s situational awareness.&lt;/p&gt;
+      <description>&lt;p&gt;I am a Ph.D. Candidate in Robotics at Northwestern University in Prof.  Todd Murphey&amp;rsquo;s lab. My work focuses on robot learning for flexible task representations from variable, imperfect human demonstrations and high-dimensional sensory learning using distribution-based representations and information-theoretic measures. I also lead Northwestern&amp;rsquo;s project for the DARPA OFFSET Urban Swarm Challenge, developing autonomous swarm algorithms for shared human-swarm collaboration and exploring their efficacy in aiding task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
 </description>
     </item>
     

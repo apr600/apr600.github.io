@@ -17,14 +17,9 @@
       <link>https://apr600.github.io/project/high-dim-learning/</link>
       <pubDate>Tue, 03 Sep 2019 12:07:34 -0500</pubDate>
       <guid>https://apr600.github.io/project/high-dim-learning/</guid>
-      <description>
-
-&lt;p&gt;When learning a representation, the quality of the learned model (whether of the world, task or system itself) depends on the quality of data used to build the model. but how do we ensure that we explore and receive valuable information, particularly for high-dimensional search spaces where the information is sparse or hard to interpret (and therefore learn from)?&lt;/p&gt;
-
+      <description>&lt;p&gt;When learning a representation, the quality of the learned model (whether of the world, task or system itself) depends on the quality of data used to build the model. but how do we ensure that we explore and receive valuable information, particularly for high-dimensional search spaces where the information is sparse or hard to interpret (and therefore learn from)?&lt;/p&gt;
 &lt;h2 id=&#34;k-l-ergodic-exploration-from-equilibrium-kl-e3&#34;&gt;K-L Ergodic Exploration from Equilibrium (KL-E3)&lt;/h2&gt;
-
 &lt;h3 id=&#34;distribution-based-active-exploration-and-the-kl-divergence-measure&#34;&gt;Distribution-Based Active Exploration and the KL-Divergence Measure&lt;/h3&gt;
-
 
 
 
@@ -46,9 +41,7 @@
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;K-L divergence based control method focused on efficiently exploring high-dimensional search spaces safely for active, stable exploration. For efficient learning, we want to drive the exploration of the robot to prioritize obtaining more informative data. To do this, we defined an information distribution over the search space that represented the importance measure of the data (such as measures of linear independence from sparse Gaussian processes or measures representing model parameter uncertainty with respect to the search space). By defining the importance measure based on the state space, we generated a representation of the state space that prioritized states that generate highly informative data.&lt;/p&gt;
-
 
 
 
@@ -70,11 +63,8 @@
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;We then used information-based measures with hybrid control to generate controls that cover the search space and prioritizing high-information regions by matching the information distribution generated, while maintaining safety and stability constraints. The ergodic metric allows us to quantitatively define a measure that minimizes the distance between the information distribution and the time-averaged trajectory of the robot. Using it in the cost function allows us to generate controls that explore the full state-space while prioritizing high-information regions. The main limitation of the ergodic metric used in the active exploration algorithm is that the computational complexity of ergodicity exponentially increases with the dimensionality of the search space. To address this, we derive an active exploration algorithm using a sampling-based approximation of the ergodic metric using the Kullback-Leibler divergence metric. The sampling-based approximation allowed us to actively explore a much higher dimensional search space without sacrificing real-time control.&lt;/p&gt;
-
-&lt;p&gt;For more information about this project, check out the &lt;a href=&#34;https://murpheylab.github.io/projects/CyberPhysicalSystems&#34; target=&#34;_blank&#34;&gt;project page&lt;/a&gt; or the &lt;a href=&#34;https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt; and its &lt;a href=&#34;https://github.com/i-abr/kle3&#34; target=&#34;_blank&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;For more information about this project, check out the &lt;a href=&#34;https://murpheylab.github.io/projects/CyberPhysicalSystems&#34;&gt;project page&lt;/a&gt; or the &lt;a href=&#34;https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf&#34;&gt;paper&lt;/a&gt; and its &lt;a href=&#34;https://github.com/i-abr/kle3&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
 
 
 
@@ -96,34 +86,22 @@
 
 &lt;/figure&gt;
 
-
 &lt;h2 id=&#34;active-exploration-for-learning-haptic-language&#34;&gt;Active Exploration for Learning Haptic Language&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&#34;biotac.png&#34; alt=&#34;Biotac Tactile Sensor&#34;  height=&#34;256&#34; width = &#34;184&#34;
-  /&gt;
-  &lt;figcaption&gt;The Biotac tactile sensor exploring the workspace to learn, classify and map the textures in the space.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;My work explores the idea of non-parametric learning for high-dimensional sensory spaces, specifically tactile exploration. Tactile exploration is a particularly interesting example of high-dimensional sensory exploration because, unlike vision, the exploratory motions used to obtain the data affect the data itself. That is, &lt;em&gt;how you move across the texture affects the sensory data received&lt;/em&gt;. As such, learning and classifying texture data from exploratory motions can be a challenging problem.&lt;/p&gt;
-
 &lt;p&gt;Most of the work in tactile exploration either focus on learning to translate the sensory signals to physically interpretable characteristics. Others simplify the tactile exploration for generating discriminatory motions by either mimicking human exploratory motions or by building a library of motions to discriminate particular characteristics. The question I am exploring is, &lt;em&gt;Can I learn textures and mappings of workspaces directly from the high-dimensional tactile sensory signals without trying to associate physical characteristics to the sensory signals?&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Using the Biotac tactile sensor from SynTouch, Inc., a 19-dimensional tactile sensor that mimics the sensory capabilities of the human fingertip, I explore the use of Mixture Density Networks to learn, model, and classify textures without a prior library of texture definitions or predefined exploratory motions. Furthermore, using the K-L divergence-based exploration algorithm in conjunction with learning techniques for mixture models,  I efficiently learn and map a texture space by prioritizing informative regions and motions for texture discrimination.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Human-Swarm Collaboration for Perception Augmentation</title>
+      <title>Shared Ergodic Control for Flexible Human-Swarm Collaboration under Pressure</title>
       <link>https://apr600.github.io/project/human-swarm-collab/</link>
       <pubDate>Tue, 03 Sep 2019 12:07:14 -0500</pubDate>
       <guid>https://apr600.github.io/project/human-swarm-collab/</guid>
-      <description>
-
-&lt;p&gt;People often have to perform a variety of tasks-including search-and-rescue, target location, or exploration and terrain mapping- in unfamiliar environments. Drones deployed in the field with them have the ability to greatly improve their situational and perceptual awareness by providing feedback to aid in their task performance and safety. However, swarm deployment can be complicated, as drones can be difficult for a person to control and operate without greatly increasing their cognitive load, which can make task performance difficult and inefficient. With this in mind, I ask the question: &lt;em&gt;How can we design the human-swarm system to best improve the operator&amp;rsquo;s situational awareness while minimimizing their cognitive load?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I lead the Northwestern team on the DARPA OFFSET Sprint 3 project, exploring this idea. I developed an experimental Virtual Reality test bed with the HTC Vive and Unity VR environments to conduct human subject studies investigating these questions on collaboration. We are working on developing visual and tactile interfaces for incorporating an operator&amp;rsquo;s preferences for swarm exploration. Using these interfaces, we can explore methods to incorporate the operator&amp;rsquo;s real-time needs into the swarm control with minimal additional cognitive load on the operator.&lt;/p&gt;
-
+      <description>&lt;p&gt;People often have to perform a variety of tasks-including search-and-rescue, target location, or exploration and terrain mapping- in unfamiliar environments. Drones deployed in the field with them have the ability to greatly improve their situational and perceptual awareness by providing feedback to aid in their task performance and safety. However, swarm deployment can be complicated, as drones can be difficult for a person to control and operate without greatly increasing their cognitive load, which can make task performance difficult and inefficient. With this in mind, I ask the question: &lt;em&gt;How can we design a human-swarm system to best accomplish a task under pressure?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I lead the Northwestern team on the  DARPA FX-3 Urban Swarm Challenge project, exploring this idea. I developed a formulation for swarm control and high-level task planning that is dynamically responsive to
+user commands and adaptable to environmental information. I designed an end-to-end pipeline from a tactile tablet interface for user commands to onboard control of robotic agents based on decentralized ergodic coverage. I conducted experiments with a robotic swarm at the DARPA OFFSET FX3 field tests, combining user inputs and task specifications to generate swarm behavior flexible to changing conditions and objectives in real-time. I also developed an experimental VR test bed to validate our approach in a simulation and conduct human subject studies investigating human-robot collaboration under pressure.&lt;/p&gt;
 
 
 
@@ -140,23 +118,11 @@
 
 
 &lt;video controls &gt;
-  &lt;source src=&#34;swarm_pipeline_info.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;rss_2020_submission_small.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
-
-&lt;h2 id=&#34;autonomous-swarm-control-algorithms-for-perception-augmentation&#34;&gt;Autonomous Swarm Control Algorithms for Perception Augmentation&lt;/h2&gt;
-
-&lt;p&gt;Using autonomous swarm control algorithms, I can generate swarm behavior that can can reduce cognitive load on an operator, increase an operator’s situational awareness, and degrade adversary situational awareness without needing an operator to manually drive the drones nor direct swarm activity.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&#34;HumanSwarm.jpg&#34; alt=&#34;Human-Swarm Collaboration in the VR environment&#34;  height=&#34;209&#34; width = &#34;316&#34;
-  /&gt;
-    &lt;figcaption&gt;The swarm provides an operator feedback in the Unity VR environment we developed to aid situational awareness.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We want the swarms to autonomously provide coverage for the operator, providing feedback in areas where the operator cannot visually see, due to distance from the operator, blind spots behind where the operator is looking and line-of-sight (LOS) occlusions from buildings, traffic, street conditions, etc. Through this, drones can provide the visual coverage to help the operator improve situational awareness to improve task performance.&lt;/p&gt;
-
-&lt;p&gt;To do this, I use a distribution-based approach to represent the information over the environment. By representing the search space as a distribution to be explored, we can use information-based measures, specifically ergodicity, with hybrid control techniques to autonomously control the drone swarm to aid the operator. By using the distribution-based representation with decentralized control, we can naturally accomodate changing numbers of drones in the swarm and evolving information distributions over time.&lt;/p&gt;
-
+&lt;h2 id=&#34;ergodic-specifications-for-flexible-swarm-control-and-dynamic-task-adaptation&#34;&gt;Ergodic Specifications for Flexible Swarm Control and Dynamic Task Adaptation&lt;/h2&gt;
+&lt;p&gt;I use decentralized ergodic control for reliable control of a swarm that is dynamically responsive to user and external inputs. We use ergodicity as a
+concept for converting spatially distributed task information into temporally driving robot motion. Because ergodicity relates the time-averaged distribution of a trajectory proportionally to a target spatial distribution, we can use ergodic control to specify how long a single agent should spend time in particular regions of the exploration space.  In particular, we use the decentralized ergodic variation for a networked set of heterogenous agents to drive the swarm control such that it is robust to networking communication issues, changing numbers of agents in the field and evolving information distributions over time.
 
 
 
@@ -165,41 +131,121 @@
 
 &lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;los_dist_figure.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;usim_crop.gif&#34; data-caption=&#34;Swarm of Quadrotors covering a Target  &amp;lsquo;&amp;lsquo;U&amp;rsquo;&amp;rsquo; Spatial Distribution&#34;&gt;
 
-&lt;img src=&#34;los_dist_figure.png&#34; &gt;
+&lt;img src=&#34;usim_crop.gif&#34; alt=&#34;Swarm of Quadrotors covering a Target  &amp;#39;&amp;#39;U&amp;#39;&amp;#39; Spatial Distribution &#34; width=&#34;336&#34; &gt;
 &lt;/a&gt;
 
 
 &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;(a) The operator (in red) moving through the environment would not be aware of the person (in blue) around the corner due to line-of-sight (LOS) occlusion (in yellow) of the building (b) a drone provides overhead visual coverage by anticipating line-of-sight and distance-based low information areas and and moves autonomously using distribution-based algorithms (i.e. ergodic control).&lt;/h4&gt;
+  
+  &lt;p&gt;
+    Swarm of Quadrotors covering a Target  &amp;lsquo;&amp;lsquo;U&amp;rsquo;&amp;rsquo; Spatial Distribution
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ergodic specifications allow us to flexibly define task allocation and response using spatial distributions. We define each task as a spatial measure over the exploration space that can dynamically update based on user or external inputs. We can combine the different task specifications and user specifications to enable multimodal descriptions of where agents need to be spatially allocated over the workspace.&lt;/p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;comb_sim.png&#34; &gt;
+
+&lt;img src=&#34;comb_sim.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Simulation of a swarm dynamically adapting to the environment while also responding to user commands. (a) When the swarm discovers a DD, the agents cover the rest of the workspace while avoiding that location. (b) When a user inputs a bimodal distribution (shown as the dark region on the map), the swarm responds to the user commands, while continuing to avoid the DD location. (c) When the swarm finds an EE, it simultaneously converges on the EE, covers the user inputs, and avoids the DD location.  (d) shows the resulting target distribution for the combined tasks.&lt;/h4&gt;
   
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
 
+&lt;p&gt;When defining task specifications for field missions (at the DARPA FX3 Field testing), we focus on two main scenarios: reallocating priority to a given region when an easter egg (EE) is discovered and generating a region of avoidance
+if a disabling device (DD) is discovered. The location of these elements is represented in the specification by parametrizing the distribution as a multimodal sum of Gaussians to generate high importance regions where there is an EE and low regions (avoidance regions) where there is a DD.&lt;/p&gt;
 
-&lt;h2 id=&#34;interface-development-for-guiding-swarm-behavior-for-real-time-operator-needs&#34;&gt;Interface Development for Guiding Swarm Behavior for Real-time Operator Needs&lt;/h2&gt;
 
-&lt;p&gt;One of the key benefits of the distribution-based approach is that it allows one to incorporate different priorities and metrics into guiding the swarm behavior, as long as they can be represented in the spatial distribution governing the ergodic coverage algorithm.&lt;/p&gt;
 
-&lt;p&gt;This allows us to provide a method of incorporating the operator&amp;rsquo;s preferences or desires into the algorithm without requiring the operator to directly control each drone&amp;rsquo;s trajectories nor constantly drive the swarm behavior, minimizing the additional cognitive load on the operator. To this end, I am developing visual and tactile display interfaces to communicate the operator&amp;rsquo;s desires, making it at least possible that a swarm can be directed without any visual attention on the part of the operator.&lt;/p&gt;
 
-&lt;figure&gt;
-  &lt;img src=&#34;UnityTanvas.jpg&#34; alt=&#34;Tanvas Tactile Tablet sending information on user needs to Unity environment for drone control&#34;  height=&#34;252&#34; width = &#34;336&#34;
-  /&gt;
-    &lt;figcaption&gt;The Tanvas tactile tablet allows the operator to communicate their preferences for coverage to the swarm controller in the Unity VR environment.&lt;/figcaption&gt;
-&lt;/figure&gt;
 
-&lt;h2 id=&#34;information-rendering-for-optimal-task-performance&#34;&gt;Information Rendering for Optimal Task Performance&lt;/h2&gt;
-
-&lt;p&gt;One of the challenges with swarm-based aid is determining how to communicate information back to the operator without distracting them from the original task nor greatly increasing their cognitive load. With a single drone, direct visual feedback could sufficiently aid the operator without too much distraction, but as the number of drones in the swarm increases, directly showing the visual feed from the drones to the operator becomes infeasible. As such, we investigate how best to control the drones and communicate the information to the operator (e.g., semantic labeling, information-prioritized feedback, etc.) to most effectively aid task performance.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&#34;semantic_label_fig.png&#34; alt=&#34;Information Rendering using Semantic Labeling&#34;  height=&#34;310&#34; width = &#34;676&#34;
-  /&gt;
-    &lt;figcaption&gt;The swarm provides an operator feedback in the Unity VR environment we developed to aid situational awareness.&lt;/figcaption&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;tanvas_pic_cropped.png&#34; &gt;
+
+&lt;img src=&#34;tanvas_pic_cropped.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;The Tanvas tactile tablet allows the operator to communicate their preferences for coverage to the swarm.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
 &lt;/figure&gt;
+
+&lt;p&gt;User inputs are incorporated through a tablet interface we developed for communicating regions of interest by the user to a swarm in realtime using the TanvasTouch monitor. Using the TanvasTouch, the user can specify regions of exploratory interest by simply shading the regions of interest on the TanvasTouch. The tablet interface transmits a set of desired points on the workspace for the swarm to prioritize and the spatial distribution is generated by assigning the highest priority value at each of those points in a discretized workspace. The user-specified distribution is combined  with the task-based distribution to generate swarm control that is dynamically responsive to both task updates and user inputs.&lt;/p&gt;
+&lt;h2 id=&#34;experimental-systems&#34;&gt;Experimental Systems&lt;/h2&gt;
+&lt;h3 id=&#34;robotic-swarm-at-darpa-offset-field-tests&#34;&gt;Robotic Swarm at DARPA OFFSET Field Tests&lt;/h3&gt;
+&lt;p&gt;The decentralized swarm control was tested on a swarm of 4 Aion Robotics R1 rovers at the DARPA OFFSET Sprint 3 field tests. Motion planning for each rover used the decentralized ergodic planner wrapped around an RT-RRT* planner for real-time path planning and local obstacle avoidance. The rovers communicated over a local LTE network using a Java interface to share information.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;rover_urbanexplr.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;p&gt;We conducted field tests on an urban range, where we successfully deployed a swarm of ground rovers to explore a target region. The ergodic algorithm in conjunction with the RT-RRT* planner enabled exploration of the region (including the interior of a building) without any need for mode switching between indoor and outdoor exploration.&lt;/p&gt;
+&lt;h3 id=&#34;virtual-reality-system-for-human-subject-studies&#34;&gt;Virtual Reality System for Human-Subject Studies&lt;/h3&gt;
+&lt;p&gt;We developed an experimental urban environment testbed using the Unity game engine and using an HTC Vive for controlling operator movement inside the virtual reality environment. As the operator moved within the VR environment, a swarm of simulated quadrotors running the ergodic swarm algorithm provided assisstane to the operator in real time.The swarm&amp;rsquo;s behavior was governed by ergodic task specifications as described above, as well as using the TanvasTouch haptic interface to send commands for desired areas of explorations to the swarm.&lt;/p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;vr_system_architecture&#34; data-caption=&#34;Experimental VR Urban Environment Testbed for User Studies on Shared Control&#34;&gt;
+
+&lt;img src=&#34;vr_system_architecture&#34; alt=&#34;Experimental VR Urban Environment Testbed for User Studies on Shared Control &#34; width=&#34;336&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  
+  &lt;p&gt;
+    Experimental VR Urban Environment Testbed for User Studies on Shared Control
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;The VR environment was used to validate the full system architecture of the shared ergodic formulation with multiple two-way communication channels. In addition, we have conducted user studies using this testbed to analyze the impact of the shared ergodic swarm control approach compared to standard methods and analyzes the effects of different ergodic specifications within our framework on task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
 </description>
     </item>
     
@@ -208,39 +254,22 @@
       <link>https://apr600.github.io/project/task-rep/</link>
       <pubDate>Tue, 03 Sep 2019 12:04:05 -0500</pubDate>
       <guid>https://apr600.github.io/project/task-rep/</guid>
-      <description>
-
-&lt;p&gt;People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I use distribution-based representations and information-theoretic measures to both represent the task information and generate motions that successfully accomplish the task using standard model predictive control methods.&lt;/p&gt;
-
+      <description>&lt;p&gt;People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I use distribution-based representations and information-theoretic measures to both represent the task information and generate motions that successfully accomplish the task using standard model predictive control methods.&lt;/p&gt;
 &lt;h2 id=&#34;robotic-visual-rendering-using-information-theoretic-methods&#34;&gt;Robotic Visual Rendering using Information-Theoretic Methods&lt;/h2&gt;
-
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/h2wnD6e4grw?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;Drawing is a classic example of tasks where the motions are used to successfully accomplish the task of communicating information. It falls into a unique subset of tasks where the motion is simultaneously essential for accomplishing the task, but there are many motion trajectories that can successfully accomplish it&amp;mdash; people may draw the same image completely different, but they ultimately result in the same image. I wanted to give the same level of robustness and generality to a robot&amp;rsquo;s task performance.&lt;/p&gt;
-
 &lt;p&gt;To do this, I represent the task as the distribution over the state space representing the relevant task state information. By representing the task as an information distribution, the definition can be abstracted away from the specific motion trajectories. This representation naturally accommodates uncertainty due to trajectory variability and multiple task solutions. Using this representation, I use an information-based metric &lt;em&gt;ergodicity&lt;/em&gt; to define an objective function with model-based predictive control to generate controls that successfully accomplishes the task with the most efficient motion, given the system dynamics and initial conditions.&lt;/p&gt;
-
 &lt;h2 id=&#34;learning-from-variable-imperfect-demonstrations-using-ergodic-control&#34;&gt;Learning from Variable, Imperfect Demonstrations using Ergodic Control&lt;/h2&gt;
-
 &lt;p&gt;As robots become more ubiquitous in every day life, they will be interacting with people more and will need to learn from them. At the same time, as regular people are required to teach robots to perform more challenging tasks and provide demonstrations for complicated robotic systems that they may be unfamiliar with, they may provide demonstrations that are non-optimal or even unsuccessful. &lt;em&gt;How do we allow robots to learn a task representation from a set of human demonstrations that 1) can encompass varied solutions to the same task, and, perhaps more importantly, 2) can still generate optimal solutions from a set of imperfect demonstrations from a non-expert user?&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Here, I continue exploring the idea of representing the set of demonstrations as an information distribution over the task space. By considering each demonstration as adding information about the task, we can consider imperfect, and even unsuccessful, demonstrations as still adding valuable information about the task to the representation. As such, a set of imperfect demonstrations can collectively create a task representation from which we can generate controls for optimal task performance. Furthermore, this representation allows more flexibility in the demonstration set, allowing for multiple solution sets for the same task. By representing the task as information over the task space, multiple solutions can emerge from a demonstration set and variations that are irrelevant to task success will naturally be averaged out.&lt;/p&gt;
-
-&lt;!--
-### LfD for Area Coverage Tasks
-
-Consider a standard task such as cleaning a particular surface. In general, the specific motions and sequential order of task space visited does not matter to success. Instead, viewing the task as an *area coverage* over the task space, reflects this flexibility-- while also capturing specific regions that may require more time spent, such as around stovetops or corners.
-
-
-
-### LfD for Dynamic Tasks
-
-Even for more dynamically challenging tasks, such as the cart-pendulum inversion problem, this representation allows for successful controls. The cart-pendulum inversion problem is a classic problem that can be extremely challenging for people to demonstrate, due to the complicated dynamics of the system and the instability at the desired upright state. As such, a set of demonstrations from human demonstrators, especially non-expert ones, are highly imperfect, and rarely successfully stabilize in the upright position.
---&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     

@@ -5,12 +5,28 @@
     <link>https://apr600.github.io/publication/</link>
       <atom:link href="https://apr600.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 12:11:23 -0500</lastBuildDate>
     <image>
       <url>https://apr600.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://apr600.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Ergodic Specifications for Flexible Swarm Control: From User Commands to Persistent Adaptation</title>
+      <link>https://apr600.github.io/publication/darpa-fx3-rss/</link>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/darpa-fx3-rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Coverage for Active Learning From Equilibrium</title>
+      <link>https://apr600.github.io/publication/kl-e3-tase/</link>
+      <pubDate>Wed, 13 May 2020 12:05:31 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/kl-e3-tase/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Active Area Coverage from Equilibrium</title>
