@@ -219,32 +219,6 @@ if a disabling device (DD) is discovered. The location of these elements is repr
 &lt;p&gt;We conducted field tests on an urban range, where we successfully deployed a swarm of ground rovers to explore a target region. The ergodic algorithm in conjunction with the RT-RRT* planner enabled exploration of the region (including the interior of a building) without any need for mode switching between indoor and outdoor exploration.&lt;/p&gt;
 &lt;h3 id=&#34;virtual-reality-system-for-human-subject-studies&#34;&gt;Virtual Reality System for Human-Subject Studies&lt;/h3&gt;
 &lt;p&gt;We developed an experimental urban environment testbed using the Unity game engine and using an HTC Vive for controlling operator movement inside the virtual reality environment. As the operator moved within the VR environment, a swarm of simulated quadrotors running the ergodic swarm algorithm provided assisstane to the operator in real time.The swarm&amp;rsquo;s behavior was governed by ergodic task specifications as described above, as well as using the TanvasTouch haptic interface to send commands for desired areas of explorations to the swarm.&lt;/p&gt;
-
-
-
-
-
-
-&lt;figure&gt;
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;vr_system_architecture&#34; data-caption=&#34;Experimental VR Urban Environment Testbed for User Studies on Shared Control&#34;&gt;
-
-&lt;img src=&#34;vr_system_architecture&#34; alt=&#34;Experimental VR Urban Environment Testbed for User Studies on Shared Control &#34; width=&#34;336&#34; &gt;
-&lt;/a&gt;
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  
-  &lt;p&gt;
-    Experimental VR Urban Environment Testbed for User Studies on Shared Control
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
 &lt;p&gt;The VR environment was used to validate the full system architecture of the shared ergodic formulation with multiple two-way communication channels. In addition, we have conducted user studies using this testbed to analyze the impact of the shared ergodic swarm control approach compared to standard methods and analyzes the effects of different ergodic specifications within our framework on task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
 </description>
     </item>
