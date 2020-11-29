@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B. Simidchieva | Academic</title>
+    <link>https://apr600.github.io/authors/b.-simidchieva/</link>
+      <atom:link href="https://apr600.github.io/authors/b.-simidchieva/index.xml" rel="self" type="application/rss+xml" />
+    <description>B. Simidchieva</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 12:11:23 -0500</lastBuildDate>
+    <image>
+      <url>https://apr600.github.io/img/icon-192.png</url>
+      <title>B. Simidchieva</title>
+      <link>https://apr600.github.io/authors/b.-simidchieva/</link>
+    </image>
+    
+    <item>
+      <title>Ergodic Specifications for Flexible Swarm Control: From User Commands to Persistent Adaptation</title>
+      <link>https://apr600.github.io/publication/darpa-fx3-rss/</link>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/darpa-fx3-rss/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
