@@ -1,185 +1,138 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://apr600.github.io/publication_types/1/</loc>
-    <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/a.-billard/</loc>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
     <loc>https://apr600.github.io/authors/a.-prabhakar/</loc>
-    <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/</loc>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/</loc>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/publication/ai-hri-safe-irl/</loc>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/publication_types/</loc>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/publication/</loc>
+    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/l.-panchetti/</loc>
+    <lastmod>2021-12-09T12:11:24-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/m.-perret/</loc>
+    <lastmod>2021-12-09T12:11:24-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/publication/ai-hri-sensory/</loc>
+    <lastmod>2021-12-09T12:11:24-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/s.-furrer/</loc>
+    <lastmod>2021-12-09T12:11:24-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/a.-kalinowska/</loc>
+    <lastmod>2021-12-09T12:11:23-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/publication/ergodic-lfd/</loc>
+    <lastmod>2021-12-09T12:11:23-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/k.-fitzsimons-and-t.d.-murphey/</loc>
+    <lastmod>2021-12-09T12:11:23-05:00</lastmod>
+  </url><url>
     <loc>https://apr600.github.io/authors/a.-taylor/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apr600.github.io/</loc>
-    <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apr600.github.io/authors/</loc>
-    <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/b.-simidchieva/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/b.-teich/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication/darpa-fx3-rss/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/g.-diniz/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/i.-abraham/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/k.-popovic/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/m.-schlafly/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apr600.github.io/publication_types/</loc>
-    <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apr600.github.io/publication/</loc>
-    <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/s.clark-and-t.d.-murphey/</loc>
     <lastmod>2020-05-13T12:11:23-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication_types/2/</loc>
     <lastmod>2020-05-13T12:05:31-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/a.-prabhakar-and-t.d.-murphey/</loc>
     <lastmod>2020-05-13T12:05:31-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication/kl-e3-tase/</loc>
     <lastmod>2020-05-13T12:05:31-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/project/high-dim-learning/</loc>
     <lastmod>2019-09-03T12:07:34-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/project/</loc>
     <lastmod>2019-09-03T12:07:34-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/project/human-swarm-collab/</loc>
     <lastmod>2019-09-03T12:07:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/project/task-rep/</loc>
     <lastmod>2019-09-03T12:04:05-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication/kl-e3-wafr/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/and-t.d.-murphey/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication/ergodic-shape-estimation/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/a.-mavrommati/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication/ergodic-drawing-wafr/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/j.-schultz/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication/stochastic-ergodic-acc/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/g.-de-la-torre/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/k.-flaskamp/</loc>
     <lastmod>2016-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/publication/symplectic-ergodic-control/</loc>
     <lastmod>2015-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/talk/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://apr600.github.io/tags/</loc>
   </url>
-  
 </urlset>

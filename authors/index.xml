@@ -5,7 +5,7 @@
     <link>https://apr600.github.io/authors/</link>
       <atom:link href="https://apr600.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 12:11:23 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Dec 2021 12:11:25 -0500</lastBuildDate>
     <image>
       <url>https://apr600.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,10 +13,58 @@
     </image>
     
     <item>
+      <title>A. Billard</title>
+      <link>https://apr600.github.io/authors/a.-billard/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:25 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-billard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A. Prabhakar</title>
       <link>https://apr600.github.io/authors/a.-prabhakar/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <pubDate>Thu, 09 Dec 2021 12:11:25 -0500</pubDate>
       <guid>https://apr600.github.io/authors/a.-prabhakar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Panchetti</title>
+      <link>https://apr600.github.io/authors/l.-panchetti/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:24 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/l.-panchetti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Perret</title>
+      <link>https://apr600.github.io/authors/m.-perret/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:24 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/m.-perret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Furrer</title>
+      <link>https://apr600.github.io/authors/s.-furrer/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:24 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/s.-furrer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Kalinowska*</title>
+      <link>https://apr600.github.io/authors/a.-kalinowska/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-kalinowska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K. Fitzsimons and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/k.-fitzsimons-and-t.d.-murphey/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/k.-fitzsimons-and-t.d.-murphey/</guid>
       <description></description>
     </item>
     
