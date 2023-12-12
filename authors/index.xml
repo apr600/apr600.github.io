@@ -29,30 +29,6 @@
     </item>
     
     <item>
-      <title>B. Simidchieva</title>
-      <link>https://apr600.github.io/authors/b.-simidchieva/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
-      <guid>https://apr600.github.io/authors/b.-simidchieva/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>B. Teich</title>
-      <link>https://apr600.github.io/authors/b.-teich/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
-      <guid>https://apr600.github.io/authors/b.-teich/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>G. Diniz</title>
-      <link>https://apr600.github.io/authors/g.-diniz/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
-      <guid>https://apr600.github.io/authors/g.-diniz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>I. Abraham</title>
       <link>https://apr600.github.io/authors/i.-abraham/</link>
       <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
@@ -61,10 +37,10 @@
     </item>
     
     <item>
-      <title>K. Popovic</title>
-      <link>https://apr600.github.io/authors/k.-popovic/</link>
+      <title>K. Popovic  and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/k.-popovic-and-t.d.-murphey/</link>
       <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
-      <guid>https://apr600.github.io/authors/k.-popovic/</guid>
+      <guid>https://apr600.github.io/authors/k.-popovic-and-t.d.-murphey/</guid>
       <description></description>
     </item>
     
@@ -73,14 +49,6 @@
       <link>https://apr600.github.io/authors/m.-schlafly/</link>
       <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
       <guid>https://apr600.github.io/authors/m.-schlafly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>S.Clark  and T.D. Murphey</title>
-      <link>https://apr600.github.io/authors/s.clark-and-t.d.-murphey/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
-      <guid>https://apr600.github.io/authors/s.clark-and-t.d.-murphey/</guid>
       <description></description>
     </item>
     
@@ -137,7 +105,7 @@
       <link>https://apr600.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://apr600.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Postdoctoral Research Fellow in the Learning Algorithms and Systems (LASA) lab at EPFL under Prof. Aude Billard. My work focuses on developing learning and control algorithms for efficient human-robot collaboration and learning. I obtained my Ph.D. in Robotics at Northwestern University in Prof.  Todd Murphey&amp;rsquo;s lab. My Ph.D. work centered on information communication algorthms to enable intuitive human-robot collaboration and efficient robot learning using distribution-based motion representations and information-theoretic measures. I also led Northwestern&amp;rsquo;s team for the DARPA OFFSET Urban Swarm Challenge, developing autonomous swarm algorithms for shared human-swarm collaboration and exploring their efficacy in aiding task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
+      <description>&lt;p&gt;I am a Ph.D. Candidate in Robotics at Northwestern University in Prof.  Todd Murphey&amp;rsquo;s lab. My work focuses on robot learning for flexible task representations from variable, imperfect human demonstrations and high-dimensional sensory learning using distribution-based representations and information-theoretic measures. I also lead Northwestern&amp;rsquo;s project for the DARPA OFFSET Urban Swarm Challenge, developing autonomous swarm algorithms for shared human-swarm collaboration and exploring their efficacy in aiding task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
 </description>
     </item>
     
