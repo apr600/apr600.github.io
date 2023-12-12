@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I develop methods to efficiently use task and motion information to generate task representations that safely and successfully accomplish the task.">
+  <meta name="description" content="People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I use distribution-based representations and information-theoretic measures to both represent the task information and generate motions that successfully accomplish the task using standard model predictive control methods.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://apr600.github.io/project/task-rep/">
@@ -111,7 +111,7 @@
   <meta property="og:site_name" content="Academic">
   <meta property="og:url" content="https://apr600.github.io/project/task-rep/">
   <meta property="og:title" content="Learning Information-based Task Representations | Academic">
-  <meta property="og:description" content="People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I develop methods to efficiently use task and motion information to generate task representations that safely and successfully accomplish the task."><meta property="og:image" content="https://apr600.github.io/img/icon-192.png">
+  <meta property="og:description" content="People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I use distribution-based representations and information-theoretic measures to both represent the task information and generate motions that successfully accomplish the task using standard model predictive control methods."><meta property="og:image" content="https://apr600.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://apr600.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -161,7 +161,7 @@
     "name": "Ahalya Prabhakar"
   },
   
-  "description": "People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I develop methods to efficiently use task and motion information to generate task representations that safely and successfully accomplish the task."
+  "description": "People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I use distribution-based representations and information-theoretic measures to both represent the task information and generate motions that successfully accomplish the task using standard model predictive control methods."
 }
 </script>
 
@@ -548,16 +548,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I develop methods to efficiently use task and motion information to generate task representations that safely and successfully accomplish the task. Using information-theoretic and statistical measures in conjunction with distribution-based motion representations, I use minimal, suboptimal demonstrations to construct task representations that can safely execute the task using standard model predictive control methods.</p>
-<!-- raw HTML omitted -->
-<h2 id="credit-assignment-safety-learning-from-suboptimal-and-failure-demonstrations">Credit Assignment Safety Learning from Suboptimal and Failure Demonstrations</h2>
-<p>A critical need in assistive robotics is to learn task intent and
-safety guarantees through user interactions in order to ensure safe task performance. Most robot learning from demonstration (LfD) and inverse reinforcement learning (IRL) methods primarily rely on optimal demonstration in order to successfully learn a control policy, which can be challenging to acquire from novice users. Recent work does use suboptimal and failed demonstrations to learn about task intent; few focus on learning safety guarantees to prevent repeat failures experienced, essential for assistive robots. Furthermore, interactive human-robot learning aims to minimize effort from the human user to facilitate deployment in the real-world. As such, requiring users to label the unsafe states or keyframes from the demonstrations should not be a necessary requirement for learning. I developed an algorithm to learn a safety value function from a set of suboptimal and failed demonstrations that is used to generate a real-time safety control filter. Importantly, we develop a credit assignment method that extracts the failure states from the failed demonstrations without requiring human labelling or prespecified knowledge of unsafe regions. This method can be combined with standard LfD or IRL methods to learn a task policy that also guarantees safety during execution.</p>
-<p>For more information about this project, check out the <a href="https://arxiv.org/abs/2110.04633">paper</a> or my <a href="https://youtu.be/eEBVH1-BpfI">talk</a>.</p>
-<h2 id="learning-from-variable-imperfect-demonstrations-using-ergodic-control">Learning from Variable, Imperfect Demonstrations using Ergodic Control</h2>
-<p>As robots become more ubiquitous in every day life, they will be interacting with people more and will need to learn from them. At the same time, as regular people are required to teach robots to perform more challenging tasks and provide demonstrations for complicated robotic systems that they may be unfamiliar with, they may provide demonstrations that are non-optimal or even unsuccessful. <em>How do we allow robots to learn a task representation from a set of human demonstrations that 1) can encompass varied solutions to the same task, and, perhaps more importantly, 2) can still generate optimal solutions from a set of imperfect demonstrations from a non-expert user?</em></p>
-<p>Here, I explore the idea of representing the set of demonstrations as an information distribution over the task space. By considering each demonstration as adding information about the task, we can consider imperfect, and even unsuccessful, demonstrations as still adding valuable information about the task to the representation. As such, a set of imperfect demonstrations can collectively create a task representation from which we can generate controls for optimal task performance. Furthermore, this representation allows more flexibility in the demonstration set, allowing for multiple solution sets for the same task. By representing the task as information over the task space, multiple solutions can emerge from a demonstration set and variations that are irrelevant to task success will naturally be averaged out.</p>
-<p>For more information about this project, check out the <a href="https://arxiv.org/abs/2103.17098">paper</a>.</p>
+      <p>People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I use distribution-based representations and information-theoretic measures to both represent the task information and generate motions that successfully accomplish the task using standard model predictive control methods.</p>
 <h2 id="robotic-visual-rendering-using-information-theoretic-methods">Robotic Visual Rendering using Information-Theoretic Methods</h2>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -566,7 +557,9 @@ safety guarantees through user interactions in order to ensure safe task perform
 
 <p>Drawing is a classic example of tasks where the motions are used to successfully accomplish the task of communicating information. It falls into a unique subset of tasks where the motion is simultaneously essential for accomplishing the task, but there are many motion trajectories that can successfully accomplish it&mdash; people may draw the same image completely different, but they ultimately result in the same image. I wanted to give the same level of robustness and generality to a robot&rsquo;s task performance.</p>
 <p>To do this, I represent the task as the distribution over the state space representing the relevant task state information. By representing the task as an information distribution, the definition can be abstracted away from the specific motion trajectories. This representation naturally accommodates uncertainty due to trajectory variability and multiple task solutions. Using this representation, I use an information-based metric <em>ergodicity</em> to define an objective function with model-based predictive control to generate controls that successfully accomplishes the task with the most efficient motion, given the system dynamics and initial conditions.</p>
-<p>For more information about this project, check out the <a href="https://murpheylab.github.io/pdfs/2016WAFRPrMaScMu.pdf">paper</a>.</p>
+<h2 id="learning-from-variable-imperfect-demonstrations-using-ergodic-control">Learning from Variable, Imperfect Demonstrations using Ergodic Control</h2>
+<p>As robots become more ubiquitous in every day life, they will be interacting with people more and will need to learn from them. At the same time, as regular people are required to teach robots to perform more challenging tasks and provide demonstrations for complicated robotic systems that they may be unfamiliar with, they may provide demonstrations that are non-optimal or even unsuccessful. <em>How do we allow robots to learn a task representation from a set of human demonstrations that 1) can encompass varied solutions to the same task, and, perhaps more importantly, 2) can still generate optimal solutions from a set of imperfect demonstrations from a non-expert user?</em></p>
+<p>Here, I continue exploring the idea of representing the set of demonstrations as an information distribution over the task space. By considering each demonstration as adding information about the task, we can consider imperfect, and even unsuccessful, demonstrations as still adding valuable information about the task to the representation. As such, a set of imperfect demonstrations can collectively create a task representation from which we can generate controls for optimal task performance. Furthermore, this representation allows more flexibility in the demonstration set, allowing for multiple solution sets for the same task. By representing the task as information over the task space, multiple solutions can emerge from a demonstration set and variations that are irrelevant to task success will naturally be averaged out.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <blockquote>
@@ -679,222 +672,6 @@ safety guarantees through user interactions in order to ensure safe task perform
     
     
       <h2>Publications</h2>
-      
-        
-          
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/ai-hri-safe-irl/" >Credit Assignment Safety Learning from Human Demonstrations</a>
-    </h3>
-
-    
-    <div class="article-style">
-      A critical need in assistive robotics, such as assistive wheelchairs for navigation, is a need to learn task intent and safety …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-
-
-  <span><a href="/authors/a.-prabhakar/">A. Prabhakar</a></span>, <span><a href="/authors/a.-billard/">A. Billard</a></span>
-
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2110.04633" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/task-rep/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/eEBVH1-BpfI" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/ergodic-lfd/" >Ergodic imitation: Learning from what to do and what not to do</a>
-    </h3>
-
-    
-    <div class="article-style">
-      With growing access to versatile robotics, it is beneficial for end users to be able to teach robots tasks without needing to code a …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-
-
-  <span><a href="/authors/a.-prabhakar/">A. Prabhakar*</a></span>, <span><a href="/authors/a.-kalinowska/">A. Kalinowska*</a></span>, <span><a href="/authors/k.-fitzsimons-and-t.d.-murphey/">K. Fitzsimons and T.D. Murphey</a></span>
-
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2103.17098" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/task-rep/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        
       
         
           
