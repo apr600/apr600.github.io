@@ -5,36 +5,12 @@
     <link>https://apr600.github.io/publication_types/1/</link>
       <atom:link href="https://apr600.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Dec 2021 12:11:25 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 12:11:23 -0500</lastBuildDate>
     <image>
       <url>https://apr600.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://apr600.github.io/publication_types/1/</link>
     </image>
-    
-    <item>
-      <title>Credit Assignment Safety Learning from Human Demonstrations</title>
-      <link>https://apr600.github.io/publication/ai-hri-safe-irl/</link>
-      <pubDate>Thu, 09 Dec 2021 12:11:25 -0500</pubDate>
-      <guid>https://apr600.github.io/publication/ai-hri-safe-irl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multimodal Sensory Learning for Real-time, Adaptive Manipulation</title>
-      <link>https://apr600.github.io/publication/ai-hri-sensory/</link>
-      <pubDate>Thu, 09 Dec 2021 12:11:24 -0500</pubDate>
-      <guid>https://apr600.github.io/publication/ai-hri-sensory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ergodic imitation: Learning from what to do and what not to do</title>
-      <link>https://apr600.github.io/publication/ergodic-lfd/</link>
-      <pubDate>Thu, 09 Dec 2021 12:11:23 -0500</pubDate>
-      <guid>https://apr600.github.io/publication/ergodic-lfd/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Ergodic Specifications for Flexible Swarm Control: From User Commands to Persistent Adaptation</title>
