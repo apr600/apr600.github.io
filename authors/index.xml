@@ -5,7 +5,7 @@
     <link>https://apr600.github.io/authors/</link>
       <atom:link href="https://apr600.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 12:11:23 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2022 12:11:23 -0500</lastBuildDate>
     <image>
       <url>https://apr600.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>A. Billard</title>
+      <link>https://apr600.github.io/authors/a.-billard/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-billard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Pinosky</title>
+      <link>https://apr600.github.io/authors/a.-pinosky/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-pinosky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A. Prabhakar</title>
       <link>https://apr600.github.io/authors/a.-prabhakar/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
       <guid>https://apr600.github.io/authors/a.-prabhakar/</guid>
       <description></description>
     </item>
@@ -23,32 +39,144 @@
     <item>
       <title>A. Taylor</title>
       <link>https://apr600.github.io/authors/a.-taylor/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
       <guid>https://apr600.github.io/authors/a.-taylor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B. Simidchieva</title>
+      <link>https://apr600.github.io/authors/b.-simidchieva/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/b.-simidchieva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B. Teich</title>
+      <link>https://apr600.github.io/authors/b.-teich/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/b.-teich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>D. Reber</title>
+      <link>https://apr600.github.io/authors/d.-reber/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/d.-reber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>G. Diniz</title>
+      <link>https://apr600.github.io/authors/g.-diniz/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/g.-diniz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>I. Abraham</title>
       <link>https://apr600.github.io/authors/i.-abraham/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
       <guid>https://apr600.github.io/authors/i.-abraham/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>K. Popovic  and T.D. Murphey</title>
-      <link>https://apr600.github.io/authors/k.-popovic-and-t.d.-murphey/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
-      <guid>https://apr600.github.io/authors/k.-popovic-and-t.d.-murphey/</guid>
+      <title>J. Meyer</title>
+      <link>https://apr600.github.io/authors/j.-meyer/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/j.-meyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K. Popovic</title>
+      <link>https://apr600.github.io/authors/k.-popovic/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/k.-popovic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Niederhauser</title>
+      <link>https://apr600.github.io/authors/l.-niederhauser/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/l.-niederhauser/</guid>
       <description></description>
     </item>
     
     <item>
       <title>M. Schlafly</title>
       <link>https://apr600.github.io/authors/m.-schlafly/</link>
-      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
       <guid>https://apr600.github.io/authors/m.-schlafly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Clark</title>
+      <link>https://apr600.github.io/authors/s.-clark/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/s.-clark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. D. Murphey</title>
+      <link>https://apr600.github.io/authors/t.-d.-murphey/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/t.-d.-murphey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L. Panchetti</title>
+      <link>https://apr600.github.io/authors/l.-panchetti/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:24 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/l.-panchetti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Perret</title>
+      <link>https://apr600.github.io/authors/m.-perret/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:24 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/m.-perret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Furrer</title>
+      <link>https://apr600.github.io/authors/s.-furrer/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:24 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/s.-furrer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Kalinowska*</title>
+      <link>https://apr600.github.io/authors/a.-kalinowska/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/a.-kalinowska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K. Fitzsimons and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/k.-fitzsimons-and-t.d.-murphey/</link>
+      <pubDate>Thu, 09 Dec 2021 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/k.-fitzsimons-and-t.d.-murphey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S.Clark  and T.D. Murphey</title>
+      <link>https://apr600.github.io/authors/s.clark-and-t.d.-murphey/</link>
+      <pubDate>Wed, 13 May 2020 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/authors/s.clark-and-t.d.-murphey/</guid>
       <description></description>
     </item>
     
@@ -105,7 +233,7 @@
       <link>https://apr600.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://apr600.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Ph.D. Candidate in Robotics at Northwestern University in Prof.  Todd Murphey&amp;rsquo;s lab. My work focuses on robot learning for flexible task representations from variable, imperfect human demonstrations and high-dimensional sensory learning using distribution-based representations and information-theoretic measures. I also lead Northwestern&amp;rsquo;s project for the DARPA OFFSET Urban Swarm Challenge, developing autonomous swarm algorithms for shared human-swarm collaboration and exploring their efficacy in aiding task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
+      <description>&lt;p&gt;I am a Lecturer and Associate Research Scientist at Yale University in the Department of Mechanical Engineering.  My work focuses on developing learning and control algorithms for efficient human-robot interaction. Prior to Yale, I was a Postdoctoral Research Fellow in the Learning Algorithms and Systems (LASA) lab at EPFL under Prof. Aude Billard, where I worked on developing algorithms for multimodal sensory learning for safe manipulation and adaptive safety controllers for human-robot collaboration. I obtained my Ph.D. in Robotics at Northwestern University in Prof. Todd Murphey&amp;rsquo;s lab. My Ph.D. work centered on developing information communication algorithms to enable intuitive human-robot collaboration and efficient robot learning using distribution-based motion representations and information-theoretic measures. I led Northwestern&amp;rsquo;s team for the DARPA OFFSET Urban Swarm Challenge, developing autonomous swarm algorithms for shared human-swarm collaboration and exploring their efficacy in aiding task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
 </description>
     </item>
     

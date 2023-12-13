@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D. Reber | Academic</title>
+    <link>https://apr600.github.io/authors/d.-reber/</link>
+      <atom:link href="https://apr600.github.io/authors/d.-reber/index.xml" rel="self" type="application/rss+xml" />
+    <description>D. Reber</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2022 12:11:23 -0500</lastBuildDate>
+    <image>
+      <url>https://apr600.github.io/img/icon-192.png</url>
+      <title>D. Reber</title>
+      <link>https://apr600.github.io/authors/d.-reber/</link>
+    </image>
+    
+    <item>
+      <title>A Predictive Model for Tactile Force Estimation using Audio-Tactile Data</title>
+      <link>https://apr600.github.io/publication/multimodal-manip-esn/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/multimodal-manip-esn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

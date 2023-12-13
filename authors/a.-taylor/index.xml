@@ -5,12 +5,20 @@
     <link>https://apr600.github.io/authors/a.-taylor/</link>
       <atom:link href="https://apr600.github.io/authors/a.-taylor/index.xml" rel="self" type="application/rss+xml" />
     <description>A. Taylor</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2020 12:11:23 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2022 12:11:23 -0500</lastBuildDate>
     <image>
       <url>https://apr600.github.io/img/icon-192.png</url>
       <title>A. Taylor</title>
       <link>https://apr600.github.io/authors/a.-taylor/</link>
     </image>
+    
+    <item>
+      <title>Scale-Invariant Specifications for Human-Swarm Systems</title>
+      <link>https://apr600.github.io/publication/scale-invariant-darpa/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/scale-invariant-darpa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ergodic Specifications for Flexible Swarm Control: From User Commands to Persistent Adaptation</title>
