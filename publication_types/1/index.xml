@@ -5,12 +5,36 @@
     <link>https://apr600.github.io/publication_types/1/</link>
       <atom:link href="https://apr600.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Dec 2021 12:11:25 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2022 12:11:23 -0500</lastBuildDate>
     <image>
       <url>https://apr600.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://apr600.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Active Exploration for Real-Time Haptic Training</title>
+      <link>https://apr600.github.io/publication/tactile-learning-icra/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/tactile-learning-icra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative robots can augment human cognition in regret-sensitive tasks</title>
+      <link>https://apr600.github.io/publication/swarm-hsr-pnas/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/swarm-hsr-pnas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Human-Robot Team Benefits Under Time Pressure in a Virtual Reality Testbed</title>
+      <link>https://apr600.github.io/publication/swarm-hsr-iros/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/swarm-hsr-iros/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Credit Assignment Safety Learning from Human Demonstrations</title>

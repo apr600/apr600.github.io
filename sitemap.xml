@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://apr600.github.io/publication_types/1/</loc>
+    <lastmod>2022-12-11T12:11:23-05:00</lastmod>
+  </url><url>
     <loc>https://apr600.github.io/publication_types/2/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
@@ -23,6 +26,9 @@
     <loc>https://apr600.github.io/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
+    <loc>https://apr600.github.io/publication/tactile-learning-icra/</loc>
+    <lastmod>2022-12-11T12:11:23-05:00</lastmod>
+  </url><url>
     <loc>https://apr600.github.io/authors/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
@@ -32,13 +38,25 @@
     <loc>https://apr600.github.io/authors/b.-teich/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
+    <loc>https://apr600.github.io/authors/c.-kim/</loc>
+    <lastmod>2022-12-11T12:11:23-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/publication/swarm-hsr-pnas/</loc>
+    <lastmod>2022-12-11T12:11:23-05:00</lastmod>
+  </url><url>
     <loc>https://apr600.github.io/authors/d.-reber/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
     <loc>https://apr600.github.io/authors/g.-diniz/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
+    <loc>https://apr600.github.io/authors/g.-schlafly/</loc>
+    <lastmod>2022-12-11T12:11:23-05:00</lastmod>
+  </url><url>
     <loc>https://apr600.github.io/authors/i.-abraham/</loc>
+    <lastmod>2022-12-11T12:11:23-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/authors/j.-ketchum/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
     <loc>https://apr600.github.io/authors/j.-meyer/</loc>
@@ -51,6 +69,9 @@
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
     <loc>https://apr600.github.io/authors/m.-schlafly/</loc>
+    <lastmod>2022-12-11T12:11:23-05:00</lastmod>
+  </url><url>
+    <loc>https://apr600.github.io/publication/swarm-hsr-iros/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
   </url><url>
     <loc>https://apr600.github.io/publication/mechanical-intelligence/</loc>
@@ -70,9 +91,6 @@
   </url><url>
     <loc>https://apr600.github.io/authors/t.-d.-murphey/</loc>
     <lastmod>2022-12-11T12:11:23-05:00</lastmod>
-  </url><url>
-    <loc>https://apr600.github.io/publication_types/1/</loc>
-    <lastmod>2021-12-09T12:11:25-05:00</lastmod>
   </url><url>
     <loc>https://apr600.github.io/publication/ai-hri-safe-irl/</loc>
     <lastmod>2021-12-09T12:11:25-05:00</lastmod>
@@ -110,7 +128,7 @@
     <loc>https://apr600.github.io/publication/kl-e3-tase/</loc>
     <lastmod>2020-05-13T12:05:31-05:00</lastmod>
   </url><url>
-    <loc>https://apr600.github.io/project/high-dim-learning/</loc>
+    <loc>https://apr600.github.io/project/perception-model-learning/</loc>
     <lastmod>2019-09-03T12:07:34-05:00</lastmod>
   </url><url>
     <loc>https://apr600.github.io/project/</loc>

@@ -13,16 +13,24 @@
     </image>
     
     <item>
-      <title>High-Dimensional Learning for Robot Control</title>
-      <link>https://apr600.github.io/project/high-dim-learning/</link>
+      <title>Learning Interpretable Action-Perception Models</title>
+      <link>https://apr600.github.io/project/perception-model-learning/</link>
       <pubDate>Tue, 03 Sep 2019 12:07:34 -0500</pubDate>
-      <guid>https://apr600.github.io/project/high-dim-learning/</guid>
-      <description>&lt;p&gt;When learning representations for robot control, the quality of the learned model (whether of the world, task or system itself) depends on the quality of data used and how the data is used to build the model. but how do we ensure that we explore and receive valuable information, particularly for high-dimensional search spaces where the information is sparse or hard to interpret (and therefore learn from)? Furthermore, in high-dimensional sensor systems, how can we efficiently utilize the data in order to use it for real-time control?&lt;/p&gt;
+      <guid>https://apr600.github.io/project/perception-model-learning/</guid>
+      <description>&lt;p&gt;As robotic systems are deployed with varying sensor modalities, especially in novel scenarios, it is important for the robot to build models of how it interacts in its environment, e.g., a action- perception model, and be able to communicate its role and capabilities. I aim to develop methods that enable robots to autonomously construct meaningful sensor-environment models that are physically-driven (i.e., an model of their world and how their actions affect their perception of it) and can encode multimodal information into latent representations that are human-interpretable. Furthermore, in high-dimensional sensor systems, I explore how we can efficiently acquire and utilize the data for model learning and communication.&lt;/p&gt;
 &lt;h2 id=&#34;multimodal-sensory-learning-for-real-time-adaptive-manipulation&#34;&gt;Multimodal Sensory Learning for Real-time Adaptive Manipulation&lt;/h2&gt;
 &lt;p&gt;Adaptive control for real-time manipulation requires quick estimation and prediction of object properties. While robot
-learning in this area primarily focuses on using vision, many tasks cannot rely on vision due to object occlusion. I focus on developing methods for using multimodal sensory fusion of tactile and audio data to quickly characterize and predict an object’s properties. The predictions are used in a adaptive grasp controller to compensate for the predicted inertial forces experienced during motion. Drawing inspiration from how humans interact with objects, I investigate how to best utilize different sensory signals and actively interact with and manipulate objects to quickly learn their object properties for safe manipulation. By exploring the information content and quality in different sensory modalities, I develop algorithms that autonomously extract the relevant task information to maintain grasp stability during manipulation.&lt;/p&gt;
-&lt;p&gt;For more information, check out the &lt;a href=&#34;https://arxiv.org/abs/2110.04634&#34;&gt;paper&lt;/a&gt; and my &lt;a href=&#34;https://youtu.be/yJ51a4e3v-Q&#34;&gt;talk&lt;/a&gt; on this work.&lt;/p&gt;
-&lt;h2 id=&#34;k-l-ergodic-exploration-from-equilibrium-kl-e3&#34;&gt;K-L Ergodic Exploration from Equilibrium (KL-E3)&lt;/h2&gt;
+learning in this area primarily focuses on using vision, many tasks cannot rely on vision due to object occlusion. I focus on developing methods for using multimodal sensory fusion of tactile and audio data to quickly characterize and predict an object&amp;rsquo;s tactile force during motion dependent on their inertial properties. The predictions are used in a adaptive grasp controller to compensate for the predicted inertial forces experienced during motion. Drawing inspiration from how humans interact with objects, I investigate how to best utilize different sensory signals and actively interact with and manipulate objects to quickly learn their object properties for safe manipulation. By exploring the information content and quality in different sensory modalities, I develop algorithms that autonomously extract the relevant task information to maintain grasp stability during manipulation.&lt;/p&gt;
+&lt;p&gt;For more information, check out the &lt;a href=&#34;https://apr600.github.io/publication/multimodal-manip-esn/&#34;&gt;paper&lt;/a&gt; on this work.&lt;/p&gt;
+&lt;h2 id=&#34;mechanical-intelligence-for-learning-embodied-sensor-object-relationships&#34;&gt;Mechanical intelligence for learning embodied sensor-object relationships&lt;/h2&gt;
+&lt;p&gt;My work explores the idea of active learning for high-dimensional sensory spaces. Understanding sensory experiences and building contextual representations without prior knowledge of sensor models and environment is a challenging unsupervised learning problem. This is particularly challenging for robotics because the data has to be physically acquired and affects the learning process. I develop a method that enables agents to efficiently collect data for learning a predictive sensor model—without requiring domain knowledge, human input, or previously existing data—using ergodicity to specify the data acquisition process. This approach is based entirely on data-driven sensor characteristics rather than predefined knowledge of the sensor model and its physical characteristics.&lt;/p&gt;
+&lt;p&gt;For more information, check out the &lt;a href=&#34;https://apr600.github.io/publication/mechanical-intelligence/&#34;&gt;paper&lt;/a&gt; on this work.&lt;/p&gt;
+&lt;h3 id=&#34;active-exploration-for-learning-haptic-features&#34;&gt;Active Exploration for Learning Haptic Features&lt;/h3&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;My work explores the idea of active learning for tactile exploration. Tactile exploration is a particularly interesting example of high-dimensional sensory exploration because, unlike vision, the exploratory motions used to obtain the data affect the data itself. That is, &lt;em&gt;how you move across the texture affects the sensory data received&lt;/em&gt;. As such, learning and classifying texture data from exploratory motions can be a challenging problem.&lt;/p&gt;
+&lt;p&gt;Most of the work in tactile exploration either focus on learning to translate the sensory signals to physically interpretable characteristics. Others simplify the tactile exploration for generating discriminatory motions by either mimicking human exploratory motions or by building a library of motions to discriminate particular characteristics. The question I am exploring is, &lt;em&gt;Can I learn textures and mappings of workspaces directly from the high-dimensional tactile sensory signals without trying to associate physical characteristics to the sensory signals?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Using the Biotac tactile sensor from SynTouch, Inc., a 19-dimensional tactile sensor that mimics the sensory capabilities of the human fingertip, I explore the use of unsupervised learning methods to learn, model, and classify textures without a prior library of texture definitions or predefined exploratory motions.&lt;/p&gt;
+&lt;p&gt;For more information, check out the &lt;a href=&#34;https://apr600.github.io/publication/tactile-learning-icra/&#34;&gt;paper&lt;/a&gt; on this work.&lt;/p&gt;
 &lt;h3 id=&#34;distribution-based-active-exploration-and-the-kl-divergence-measure&#34;&gt;Distribution-Based Active Exploration and the KL-Divergence Measure&lt;/h3&gt;
 
 
@@ -68,7 +76,7 @@ learning in this area primarily focuses on using vision, many tasks cannot rely 
 &lt;/figure&gt;
 
 &lt;p&gt;We then used information-based measures with hybrid control to generate controls that cover the search space and prioritizing high-information regions by matching the information distribution generated, while maintaining safety and stability constraints. The ergodic metric allows us to quantitatively define a measure that minimizes the distance between the information distribution and the time-averaged trajectory of the robot. Using it in the cost function allows us to generate controls that explore the full state-space while prioritizing high-information regions. The main limitation of the ergodic metric used in the active exploration algorithm is that the computational complexity of ergodicity exponentially increases with the dimensionality of the search space. To address this, we derive an active exploration algorithm using a sampling-based approximation of the ergodic metric using the Kullback-Leibler divergence metric. The sampling-based approximation allowed us to actively explore a much higher dimensional search space without sacrificing real-time control.&lt;/p&gt;
-&lt;p&gt;For more information about this project, check out the &lt;a href=&#34;https://murpheylab.github.io/projects/CyberPhysicalSystems&#34;&gt;project page&lt;/a&gt; or the &lt;a href=&#34;https://murpheylab.github.io/pdfs/2018WAFRAbPrMu.pdf&#34;&gt;paper&lt;/a&gt; and its &lt;a href=&#34;https://github.com/i-abr/kle3&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information about this project, check out the papers on this work &lt;a href=&#34;https://apr600.github.io/publication/kl-e3-tase/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://apr600.github.io/publication/kl-e3-wafr/&#34;&gt;here&lt;/a&gt; and its &lt;a href=&#34;https://github.com/i-abr/kle3&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
 
 
 
@@ -90,70 +98,18 @@ learning in this area primarily focuses on using vision, many tasks cannot rely 
 
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;active-exploration-for-learning-haptic-language&#34;&gt;Active Exploration for Learning Haptic Language&lt;/h2&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;My work explores the idea of non-parametric learning for high-dimensional sensory spaces, specifically tactile exploration. Tactile exploration is a particularly interesting example of high-dimensional sensory exploration because, unlike vision, the exploratory motions used to obtain the data affect the data itself. That is, &lt;em&gt;how you move across the texture affects the sensory data received&lt;/em&gt;. As such, learning and classifying texture data from exploratory motions can be a challenging problem.&lt;/p&gt;
-&lt;p&gt;Most of the work in tactile exploration either focus on learning to translate the sensory signals to physically interpretable characteristics. Others simplify the tactile exploration for generating discriminatory motions by either mimicking human exploratory motions or by building a library of motions to discriminate particular characteristics. The question I am exploring is, &lt;em&gt;Can I learn textures and mappings of workspaces directly from the high-dimensional tactile sensory signals without trying to associate physical characteristics to the sensory signals?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Using the Biotac tactile sensor from SynTouch, Inc., a 19-dimensional tactile sensor that mimics the sensory capabilities of the human fingertip, I explore the use of unsupervised learning methods to learn, model, and classify textures without a prior library of texture definitions or predefined exploratory motions. Furthermore, using the K-L divergence-based exploration algorithm in conjunction with learning techniques for mixture models,  I efficiently learn and map a texture space by prioritizing informative regions and motions for texture discrimination.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Shared Ergodic Control for Flexible Human-Swarm Collaboration under Pressure</title>
+      <title>Optimal Interface Design for Human-Robot Collaboration</title>
       <link>https://apr600.github.io/project/human-swarm-collab/</link>
       <pubDate>Tue, 03 Sep 2019 12:07:14 -0500</pubDate>
       <guid>https://apr600.github.io/project/human-swarm-collab/</guid>
-      <description>&lt;p&gt;People often have to perform a variety of tasks-including search-and-rescue, target location, or exploration and terrain mapping- in unfamiliar environments. Drones deployed in the field with them have the ability to greatly improve their situational and perceptual awareness by providing feedback to aid in their task performance and safety. However, swarm deployment can be complicated, as drones can be difficult for a person to control and operate without greatly increasing their cognitive load, which can make task performance difficult and inefficient. With this in mind, I ask the question: &lt;em&gt;How can we design a human-swarm system to best accomplish a task under pressure?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I lead the Northwestern team on the  DARPA FX-3 Urban Swarm Challenge project, exploring this idea. I developed a formulation for swarm control and high-level task planning that is dynamically responsive to
-user commands and adaptable to environmental information. I designed an end-to-end pipeline from a tactile tablet interface for user commands to onboard control of robotic agents based on decentralized ergodic coverage. I conducted experiments with a robotic swarm at the DARPA OFFSET FX3 field tests, combining user inputs and task specifications to generate swarm behavior flexible to changing conditions and objectives in real-time. I also developed an experimental VR test bed to validate our approach in a simulation and conduct human subject studies investigating human-robot collaboration under pressure.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;video controls &gt;
-  &lt;source src=&#34;rss_2020_submission_small.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
+      <description>&lt;p&gt;For robot interfaces to be practical for humans, they must be simple, seamless, and mitigate cognitive load for the user. This is particularly critical for users who may not have familiarity with robotic systems or in settings with complex collaborative robotic systems (e.g., robot swarms) or dynamically changing environments, where managing the system can be overwhelming.
+In my research, I seek to design user interfaces for human-robot collaboration that effectively communicates information to the human with minimal cognitive load and training to use.&lt;/p&gt;
 &lt;h2 id=&#34;ergodic-specifications-for-flexible-swarm-control-and-dynamic-task-adaptation&#34;&gt;Ergodic Specifications for Flexible Swarm Control and Dynamic Task Adaptation&lt;/h2&gt;
-&lt;p&gt;I use decentralized ergodic control for reliable control of a swarm that is dynamically responsive to user and external inputs. We use ergodicity as a
-concept for converting spatially distributed task information into temporally driving robot motion. Because ergodicity relates the time-averaged distribution of a trajectory proportionally to a target spatial distribution, we can use ergodic control to specify how long a single agent should spend time in particular regions of the exploration space.  In particular, we use the decentralized ergodic variation for a networked set of heterogenous agents to drive the swarm control such that it is robust to networking communication issues, changing numbers of agents in the field and evolving information distributions over time.
-
-
-
-
-
-
-&lt;figure&gt;
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;usim_crop.gif&#34; data-caption=&#34;Swarm of Quadrotors covering a Target  &amp;lsquo;&amp;lsquo;U&amp;rsquo;&amp;rsquo; Spatial Distribution&#34;&gt;
-
-&lt;img src=&#34;usim_crop.gif&#34; alt=&#34;Swarm of Quadrotors covering a Target  &amp;#39;&amp;#39;U&amp;#39;&amp;#39; Spatial Distribution &#34; width=&#34;336&#34; &gt;
-&lt;/a&gt;
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  
-  &lt;p&gt;
-    Swarm of Quadrotors covering a Target  &amp;lsquo;&amp;lsquo;U&amp;rsquo;&amp;rsquo; Spatial Distribution
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Ergodic specifications allow us to flexibly define task allocation and response using spatial distributions. We define each task as a spatial measure over the exploration space that can dynamically update based on user or external inputs. We can combine the different task specifications and user specifications to enable multimodal descriptions of where agents need to be spatially allocated over the workspace.&lt;/p&gt;
+&lt;p&gt;People often have to perform a variety of tasks-including search-and-rescue, target location, or exploration and terrain mapping- in unfamiliar environments. Drones deployed in the field with them have the ability to greatly improve their situational and perceptual awareness by providing feedback to aid in their task performance and safety. However, swarm deployment can be complicated, as drones can be difficult for a person to control and operate without greatly increasing their cognitive load, which can make task performance difficult and inefficient. With this in mind, I ask the question: &lt;em&gt;How can we design a human-swarm system to best accomplish a task under pressure?&lt;/em&gt;&lt;/p&gt;
 
 
 
@@ -175,8 +131,7 @@ concept for converting spatially distributed task information into temporally dr
 
 &lt;/figure&gt;
 
-&lt;p&gt;When defining task specifications for field missions (at the DARPA FX3 Field testing), we focus on two main scenarios: reallocating priority to a given region when an easter egg (EE) is discovered and generating a region of avoidance
-if a disabling device (DD) is discovered. The location of these elements is represented in the specification by parametrizing the distribution as a multimodal sum of Gaussians to generate high importance regions where there is an EE and low regions (avoidance regions) where there is a DD.&lt;/p&gt;
+&lt;p&gt;I led the Northwestern team on the DARPA FX-3 Urban Swarm Challenge project, exploring this idea. I developed a formulation for swarm control and high-level task planning that is dynamically responsive to user commands and adaptable to environmental information. I designed an end-to-end pipeline from a tactile tablet interface for user commands to onboard control of robotic agents based on decentralized ergodic coverage. I conducted experiments with a robotic swarm at the DARPA OFFSET FX3 field tests, combining user inputs and task specifications to generate swarm behavior flexible to changing conditions and objectives in real-time. I also developed an experimental VR test bed to validate our approach in a simulation and conduct human subject studies investigating human-robot collaboration under pressure.&lt;/p&gt;
 
 
 
@@ -199,66 +154,22 @@ if a disabling device (DD) is discovered. The location of these elements is repr
 &lt;/figure&gt;
 
 &lt;p&gt;User inputs are incorporated through a tablet interface we developed for communicating regions of interest by the user to a swarm in realtime using the TanvasTouch monitor. Using the TanvasTouch, the user can specify regions of exploratory interest by simply shading the regions of interest on the TanvasTouch. The tablet interface transmits a set of desired points on the workspace for the swarm to prioritize and the spatial distribution is generated by assigning the highest priority value at each of those points in a discretized workspace. The user-specified distribution is combined  with the task-based distribution to generate swarm control that is dynamically responsive to both task updates and user inputs.&lt;/p&gt;
-&lt;h2 id=&#34;experimental-systems&#34;&gt;Experimental Systems&lt;/h2&gt;
-&lt;h3 id=&#34;robotic-swarm-at-darpa-offset-field-tests&#34;&gt;Robotic Swarm at DARPA OFFSET Field Tests&lt;/h3&gt;
-&lt;p&gt;The decentralized swarm control was tested on a swarm of 4 Aion Robotics R1 rovers at the DARPA OFFSET Sprint 3 field tests. Motion planning for each rover used the decentralized ergodic planner wrapped around an RT-RRT* planner for real-time path planning and local obstacle avoidance. The rovers communicated over a local LTE network using a Java interface to share information.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;video controls &gt;
-  &lt;source src=&#34;rover_urbanexplr.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;
-&lt;p&gt;We conducted field tests on an urban range, where we successfully deployed a swarm of ground rovers to explore a target region. The ergodic algorithm in conjunction with the RT-RRT* planner enabled exploration of the region (including the interior of a building) without any need for mode switching between indoor and outdoor exploration.&lt;/p&gt;
+&lt;p&gt;For more information, check out the following papers (&lt;a href=&#34;https://apr600.github.io/publication/darpa-fx3-rss/&#34;&gt;paper1&lt;/a&gt;, &lt;a href=&#34;https://apr600.github.io/publication/scale-invariant-darpa/&#34;&gt;paper2&lt;/a&gt;)  on this work.&lt;/p&gt;
 &lt;h3 id=&#34;virtual-reality-system-for-human-subject-studies&#34;&gt;Virtual Reality System for Human-Subject Studies&lt;/h3&gt;
 &lt;p&gt;We developed an experimental urban environment testbed using the Unity game engine and using an HTC Vive for controlling operator movement inside the virtual reality environment. As the operator moved within the VR environment, a swarm of simulated quadrotors running the ergodic swarm algorithm provided assisstane to the operator in real time.The swarm&amp;rsquo;s behavior was governed by ergodic task specifications as described above, as well as using the TanvasTouch haptic interface to send commands for desired areas of explorations to the swarm.&lt;/p&gt;
-
-
-
-
-
-
-&lt;figure&gt;
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;vr_system_architecture&#34; data-caption=&#34;Experimental VR Urban Environment Testbed for User Studies on Shared Control&#34;&gt;
-
-&lt;img src=&#34;vr_system_architecture&#34; alt=&#34;Experimental VR Urban Environment Testbed for User Studies on Shared Control &#34; width=&#34;336&#34; &gt;
-&lt;/a&gt;
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  
-  &lt;p&gt;
-    Experimental VR Urban Environment Testbed for User Studies on Shared Control
-    
-    
-    
-  &lt;/p&gt; 
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
 &lt;p&gt;The VR environment was used to validate the full system architecture of the shared ergodic formulation with multiple two-way communication channels. In addition, we have conducted user studies using this testbed to analyze the impact of the shared ergodic swarm control approach compared to standard methods and analyzes the effects of different ergodic specifications within our framework on task performance under dynamic, time-sensitive constraints.&lt;/p&gt;
+&lt;p&gt;For more information, check out the following papers (&lt;a href=&#34;https://apr600.github.io/publication/swarm-hsr-pnas/&#34;&gt;paper1&lt;/a&gt;, &lt;a href=&#34;https://apr600.github.io/publication/swarm-hsr-iros/&#34;&gt;paper2&lt;/a&gt;)  on this work.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Learning Information-based Task Representations</title>
+      <title>Principled Methods for Human-Robot Collaborative Learning and Control</title>
       <link>https://apr600.github.io/project/task-rep/</link>
       <pubDate>Tue, 03 Sep 2019 12:04:05 -0500</pubDate>
       <guid>https://apr600.github.io/project/task-rep/</guid>
-      <description>&lt;p&gt;People are extraordinarly good at crafting representations of tasks that takes into account the motion information necessary for successful task performance and filtering out the variable, extraneous motions from a single task execution. However, it can be difficult to construct similarly robust representations for robotics that can also be used to generate control signals for successful task performance. I develop methods to efficiently use task and motion information to generate task representations that safely and successfully accomplish the task. Using information-theoretic and statistical measures in conjunction with distribution-based motion representations, I use minimal, suboptimal demonstrations to construct task representations that can safely execute the task using standard model predictive control methods.&lt;/p&gt;
+      <description>&lt;p&gt;Enabling seamless human-robot collaboration while ensuring task success requires the reduction of the task information to its essential features through representations that are intuitive for the user. To do this, I focus on developing methods for generating and learning task representations from motion data and information that can be incorporated into model-based control methods.
+My goal is to develop methods that enable autonomy to extract understandable task embeddings that enable control methods to ensure dynamic feasibility and provably safe behavior and can be communicated to and interpreted by humans, a step in developing explainable AI.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;credit-assignment-safety-learning-from-suboptimal-and-failure-demonstrations&#34;&gt;Credit Assignment Safety Learning from Suboptimal and Failure Demonstrations&lt;/h2&gt;
 &lt;p&gt;A critical need in assistive robotics is to learn task intent and
@@ -277,8 +188,6 @@ safety guarantees through user interactions in order to ensure safe task perform
 &lt;p&gt;Drawing is a classic example of tasks where the motions are used to successfully accomplish the task of communicating information. It falls into a unique subset of tasks where the motion is simultaneously essential for accomplishing the task, but there are many motion trajectories that can successfully accomplish it&amp;mdash; people may draw the same image completely different, but they ultimately result in the same image. I wanted to give the same level of robustness and generality to a robot&amp;rsquo;s task performance.&lt;/p&gt;
 &lt;p&gt;To do this, I represent the task as the distribution over the state space representing the relevant task state information. By representing the task as an information distribution, the definition can be abstracted away from the specific motion trajectories. This representation naturally accommodates uncertainty due to trajectory variability and multiple task solutions. Using this representation, I use an information-based metric &lt;em&gt;ergodicity&lt;/em&gt; to define an objective function with model-based predictive control to generate controls that successfully accomplishes the task with the most efficient motion, given the system dynamics and initial conditions.&lt;/p&gt;
 &lt;p&gt;For more information about this project, check out the &lt;a href=&#34;https://murpheylab.github.io/pdfs/2016WAFRPrMaScMu.pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     

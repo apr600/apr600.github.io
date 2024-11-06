@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>G. Schlafly | Academic</title>
+    <link>https://apr600.github.io/authors/g.-schlafly/</link>
+      <atom:link href="https://apr600.github.io/authors/g.-schlafly/index.xml" rel="self" type="application/rss+xml" />
+    <description>G. Schlafly</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2022 12:11:23 -0500</lastBuildDate>
+    <image>
+      <url>https://apr600.github.io/img/icon-192.png</url>
+      <title>G. Schlafly</title>
+      <link>https://apr600.github.io/authors/g.-schlafly/</link>
+    </image>
+    
+    <item>
+      <title>Collaborative robots can augment human cognition in regret-sensitive tasks</title>
+      <link>https://apr600.github.io/publication/swarm-hsr-pnas/</link>
+      <pubDate>Sun, 11 Dec 2022 12:11:23 -0500</pubDate>
+      <guid>https://apr600.github.io/publication/swarm-hsr-pnas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

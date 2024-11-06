@@ -32,10 +32,10 @@
   
     
   
-  <meta name="description" content="Intelligence involves processing sensory experiences into representations useful for prediction. Understanding sensory experiences and building these contextual representations without prior knowledge of sensor models and environment is a challenging unsupervised learning problem. Current machine learning methods process new sensory data using prior knowledge defined by either domain knowledge or datasets. When datasets are not available, data acquisition is needed, though automating exploration in support of learning is still an unsolved problem. Here we develop a method that enables agents to efficiently collect data for learning a predictive sensor model—without requiring domain knowledge, human input, or previously existing data—using ergodicity to specify the data acquisition process. This approach is based entirely on data-driven sensor characteristics rather than predefined knowledge of the sensor model and its physical characteristics. We learn higher quality models with lower energy expenditure during exploration for data acquisition compared to competing approaches, including both random sampling and information maximization. In addition to applications in autonomy, our approach provides a potential model of how animals use their motor control to develop high quality models of their sensors (sight, sound, touch) before having knowledge of their sensor capabilities or their surrounding environment.">
+  <meta name="description" content="Tactile perception is important for robotic systems that interact with the world through touch. Touch is an active sense in which tactile measurements depend on the contact properties of an interaction--e.g., velocity, force, acceleration--as well as properties of the sensor and object under test. These dependencies make training tactile perceptual models challenging. Additionally, the effects of limited sensor life and the near-field nature of tactile sensors preclude the practical collection of exhaustive data sets even for fairly simple objects. Active learning provides a mechanism for focusing on only the most informative aspects of an object during data collection. Here we employ an active learning approach that uses a data-driven model&#39;s entropy as an uncertainty measure and explore relative to that entropy conditioned on the sensor state variables. Using a coverage-based ergodic controller, we train perceptual models in near-real time. We demonstrate our approach using a biomimentic sensor, exploring ``tactile scenes&#39;&#39; composed of shapes, textures, and objects. Each learned representation provides a perceptual sensor model for a particular tactile scene. Models trained on actively collected data outperform their randomly collected counterparts in real-time training tests. Additionally, we find that the resulting network entropy maps can be used to identify high salience portions of a tactile scene.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://apr600.github.io/publication/mechanical-intelligence/">
+  <link rel="alternate" hreflang="en-us" href="https://apr600.github.io/publication/tactile-learning-icra/">
 
   
 
@@ -100,7 +100,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://apr600.github.io/publication/mechanical-intelligence/">
+  <link rel="canonical" href="https://apr600.github.io/publication/tactile-learning-icra/">
 
   
   
@@ -113,9 +113,9 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://apr600.github.io/publication/mechanical-intelligence/">
-  <meta property="og:title" content="Mechanical intelligence for learning embodied sensor-object relationships | Academic">
-  <meta property="og:description" content="Intelligence involves processing sensory experiences into representations useful for prediction. Understanding sensory experiences and building these contextual representations without prior knowledge of sensor models and environment is a challenging unsupervised learning problem. Current machine learning methods process new sensory data using prior knowledge defined by either domain knowledge or datasets. When datasets are not available, data acquisition is needed, though automating exploration in support of learning is still an unsolved problem. Here we develop a method that enables agents to efficiently collect data for learning a predictive sensor model—without requiring domain knowledge, human input, or previously existing data—using ergodicity to specify the data acquisition process. This approach is based entirely on data-driven sensor characteristics rather than predefined knowledge of the sensor model and its physical characteristics. We learn higher quality models with lower energy expenditure during exploration for data acquisition compared to competing approaches, including both random sampling and information maximization. In addition to applications in autonomy, our approach provides a potential model of how animals use their motor control to develop high quality models of their sensors (sight, sound, touch) before having knowledge of their sensor capabilities or their surrounding environment."><meta property="og:image" content="https://apr600.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://apr600.github.io/publication/tactile-learning-icra/">
+  <meta property="og:title" content="Active Exploration for Real-Time Haptic Training | Academic">
+  <meta property="og:description" content="Tactile perception is important for robotic systems that interact with the world through touch. Touch is an active sense in which tactile measurements depend on the contact properties of an interaction--e.g., velocity, force, acceleration--as well as properties of the sensor and object under test. These dependencies make training tactile perceptual models challenging. Additionally, the effects of limited sensor life and the near-field nature of tactile sensors preclude the practical collection of exhaustive data sets even for fairly simple objects. Active learning provides a mechanism for focusing on only the most informative aspects of an object during data collection. Here we employ an active learning approach that uses a data-driven model&#39;s entropy as an uncertainty measure and explore relative to that entropy conditioned on the sensor state variables. Using a coverage-based ergodic controller, we train perceptual models in near-real time. We demonstrate our approach using a biomimentic sensor, exploring ``tactile scenes&#39;&#39; composed of shapes, textures, and objects. Each learned representation provides a perceptual sensor model for a particular tactile scene. Models trained on actively collected data outperform their randomly collected counterparts in real-time training tests. Additionally, we find that the resulting network entropy maps can be used to identify high salience portions of a tactile scene."><meta property="og:image" content="https://apr600.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://apr600.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -151,14 +151,14 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://apr600.github.io/publication/mechanical-intelligence/"
+    "@id": "https://apr600.github.io/publication/tactile-learning-icra/"
   },
-  "headline": "Mechanical intelligence for learning embodied sensor-object relationships",
+  "headline": "Active Exploration for Real-Time Haptic Training",
   
   "datePublished": "2022-12-11T12:11:23-05:00",
   "dateModified": "2022-12-11T12:11:23-05:00",
   
-  "description": "Intelligence involves processing sensory experiences into representations useful for prediction. Understanding sensory experiences and building these contextual representations without prior knowledge of sensor models and environment is a challenging unsupervised learning problem. Current machine learning methods process new sensory data using prior knowledge defined by either domain knowledge or datasets. When datasets are not available, data acquisition is needed, though automating exploration in support of learning is still an unsolved problem. Here we develop a method that enables agents to efficiently collect data for learning a predictive sensor model—without requiring domain knowledge, human input, or previously existing data—using ergodicity to specify the data acquisition process. This approach is based entirely on data-driven sensor characteristics rather than predefined knowledge of the sensor model and its physical characteristics. We learn higher quality models with lower energy expenditure during exploration for data acquisition compared to competing approaches, including both random sampling and information maximization. In addition to applications in autonomy, our approach provides a potential model of how animals use their motor control to develop high quality models of their sensors (sight, sound, touch) before having knowledge of their sensor capabilities or their surrounding environment."
+  "description": "Tactile perception is important for robotic systems that interact with the world through touch. Touch is an active sense in which tactile measurements depend on the contact properties of an interaction--e.g., velocity, force, acceleration--as well as properties of the sensor and object under test. These dependencies make training tactile perceptual models challenging. Additionally, the effects of limited sensor life and the near-field nature of tactile sensors preclude the practical collection of exhaustive data sets even for fairly simple objects. Active learning provides a mechanism for focusing on only the most informative aspects of an object during data collection. Here we employ an active learning approach that uses a data-driven model's entropy as an uncertainty measure and explore relative to that entropy conditioned on the sensor state variables. Using a coverage-based ergodic controller, we train perceptual models in near-real time. We demonstrate our approach using a biomimentic sensor, exploring ``tactile scenes'' composed of shapes, textures, and objects. Each learned representation provides a perceptual sensor model for a particular tactile scene. Models trained on actively collected data outperform their randomly collected counterparts in real-time training tests. Additionally, we find that the resulting network entropy maps can be used to identify high salience portions of a tactile scene."
 }
 </script>
 
@@ -176,7 +176,7 @@
 
 
 
-  <title>Mechanical intelligence for learning embodied sensor-object relationships | Academic</title>
+  <title>Active Exploration for Real-Time Haptic Training | Academic</title>
 
 </head>
 
@@ -396,7 +396,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Mechanical intelligence for learning embodied sensor-object relationships</h1>
+  <h1>Active Exploration for Real-Time Haptic Training</h1>
 
   
 
@@ -416,7 +416,7 @@
 
 
 
-  <span><a href="/authors/a.-prabhakar/">A. Prabhakar</a></span>, <span><a href="/authors/t.-d.-murphey/">T. D. Murphey</a></span>
+  <span><a href="/authors/j.-ketchum/">J. Ketchum</a></span>, <span><a href="/authors/a.-prabhakar/">A. Prabhakar</a></span>, <span><a href="/authors/t.-d.-murphey/">T. D. Murphey</a></span>
 
   </div>
   
@@ -456,7 +456,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://apr600.github.io/publication/mechanical-intelligence/&amp;text=Mechanical%20intelligence%20for%20learning%20embodied%20sensor-object%20relationships" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://apr600.github.io/publication/tactile-learning-icra/&amp;text=Active%20Exploration%20for%20Real-Time%20Haptic%20Training" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -469,7 +469,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://apr600.github.io/publication/mechanical-intelligence/&amp;t=Mechanical%20intelligence%20for%20learning%20embodied%20sensor-object%20relationships" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://apr600.github.io/publication/tactile-learning-icra/&amp;t=Active%20Exploration%20for%20Real-Time%20Haptic%20Training" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -482,7 +482,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Mechanical%20intelligence%20for%20learning%20embodied%20sensor-object%20relationships&amp;body=https://apr600.github.io/publication/mechanical-intelligence/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Active%20Exploration%20for%20Real-Time%20Haptic%20Training&amp;body=https://apr600.github.io/publication/tactile-learning-icra/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -495,7 +495,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://apr600.github.io/publication/mechanical-intelligence/&amp;title=Mechanical%20intelligence%20for%20learning%20embodied%20sensor-object%20relationships" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://apr600.github.io/publication/tactile-learning-icra/&amp;title=Active%20Exploration%20for%20Real-Time%20Haptic%20Training" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -508,7 +508,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Mechanical%20intelligence%20for%20learning%20embodied%20sensor-object%20relationships%20https://apr600.github.io/publication/mechanical-intelligence/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Active%20Exploration%20for%20Real-Time%20Haptic%20Training%20https://apr600.github.io/publication/tactile-learning-icra/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -521,7 +521,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://apr600.github.io/publication/mechanical-intelligence/&amp;title=Mechanical%20intelligence%20for%20learning%20embodied%20sensor-object%20relationships" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://apr600.github.io/publication/tactile-learning-icra/&amp;title=Active%20Exploration%20for%20Real-Time%20Haptic%20Training" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -565,26 +565,20 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.nature.com/articles/s41467-022-31795-2" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2405.11776" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/apr600/mechanical-intelligence" target="_blank" rel="noopener">
-  Code
-</a>
-
 
 
 
   
-    
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/perception-model-learning/">
+    Project
+  </a>
   
 
 
@@ -609,7 +603,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Intelligence involves processing sensory experiences into representations useful for prediction. Understanding sensory experiences and building these contextual representations without prior knowledge of sensor models and environment is a challenging unsupervised learning problem. Current machine learning methods process new sensory data using prior knowledge defined by either domain knowledge or datasets. When datasets are not available, data acquisition is needed, though automating exploration in support of learning is still an unsolved problem. Here we develop a method that enables agents to efficiently collect data for learning a predictive sensor model—without requiring domain knowledge, human input, or previously existing data—using ergodicity to specify the data acquisition process. This approach is based entirely on data-driven sensor characteristics rather than predefined knowledge of the sensor model and its physical characteristics. We learn higher quality models with lower energy expenditure during exploration for data acquisition compared to competing approaches, including both random sampling and information maximization. In addition to applications in autonomy, our approach provides a potential model of how animals use their motor control to develop high quality models of their sensors (sight, sound, touch) before having knowledge of their sensor capabilities or their surrounding environment.</p>
+    <p class="pub-abstract">Tactile perception is important for robotic systems that interact with the world through touch. Touch is an active sense in which tactile measurements depend on the contact properties of an interaction&ndash;e.g., velocity, force, acceleration&ndash;as well as properties of the sensor and object under test. These dependencies make training tactile perceptual models challenging. Additionally, the effects of limited sensor life and the near-field nature of tactile sensors preclude the practical collection of exhaustive data sets even for fairly simple objects. Active learning provides a mechanism for focusing on only the most informative aspects of an object during data collection. Here we employ an active learning approach that uses a data-driven model&rsquo;s entropy as an uncertainty measure and explore relative to that entropy conditioned on the sensor state variables. Using a coverage-based ergodic controller, we train perceptual models in near-real time. We demonstrate our approach using a biomimentic sensor, exploring ``tactile scenes&rsquo;&rsquo; composed of shapes, textures, and objects. Each learned representation provides a perceptual sensor model for a particular tactile scene. Models trained on actively collected data outperform their randomly collected counterparts in real-time training tests. Additionally, we find that the resulting network entropy maps can be used to identify high salience portions of a tactile scene.</p>
     
 
         <div class="row">
@@ -620,8 +614,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -638,7 +632,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Nature Communications</div>
+          <div class="col-12 col-md-9">International Conference on Robotics and Automation (ICRA) 2024</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -681,7 +675,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/a.-prabhakar/"></a></h5>
+      <h5 class="card-title"><a href="/authors/j.-ketchum/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
